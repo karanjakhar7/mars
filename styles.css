@@ -1,3 +1,6 @@
+h4{
+  font-weight: lighter;
+}
 .mainbox{
   text-align: center;
   max-width: 1000px;
@@ -11,11 +14,14 @@
 .data-box{
 
 background-color:#9c5518;
+border-radius: 5px;
 
 }
 .data{
   padding: 5%;
   color: #fff;
+  border: 10px;
+  border-color: black;
 }
 
 .footer{
