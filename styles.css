@@ -1,0 +1,23 @@
+.mainbox{
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+
+}
+.background{
+    background-color: rgba(244,186,116, 1);
+}
+
+.data-box{
+
+background-color:#9c5518;
+
+}
+.data{
+  padding: 5%;
+  color: #fff;
+}
+
+.footer{
+  text-align: center;
+}

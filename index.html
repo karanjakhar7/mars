@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mars Weather</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <main class="mainbox">
+    <div class="jumbotron background">
+      <h1 class="display-5">Mars Weather</h1>
+      <hr class="my-4">
+      <p class="para">InSight is taking daily weather measurements (temperature, wind, pressure) on the surface of Mars at Elysium Planitia, a flat, smooth plain near Mars’ equator.</p>
+
+
+      <div class="container-fluid data-box">
+        <div class="row">
+
+          <div class="col-sm-4 data">
+            <h2>SOL <span class="solDay"></span> </h2>
+            <!-- <h3>September 15</h3> -->
+
+          </div>
+
+          <div class="col-sm-4 data">
+            <h3>High: <span class="high"></span>° C</h3>
+            <h3>Low: <span class="low"></span>° C</h3>
+          </div>
+
+          <div class="col-sm-4 data">
+            <h3>Wind: <span class="speed"></span> m/s</h3>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <div class="footer">
+    <p class="mt-5 mb-3 text-muted">&copy; Karan 2020</p>
+  </div>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
